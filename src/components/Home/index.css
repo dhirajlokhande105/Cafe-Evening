@@ -1,0 +1,99 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom, #6F4E37, white); */
+    background-color: #eee9e4;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.desc-heading {
+    content: "";
+    background-image: url("https://res.cloudinary.com/dx2ukhurs/image/upload/v1709365477/bg2_oxlqb2.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 72px;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.description {
+
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+.desc-text {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.offers-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.offers-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+
+}
+
+
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/*  */
+
+.offer2-img {
+    width: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.offer1-img {
+    width: 40vw;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
